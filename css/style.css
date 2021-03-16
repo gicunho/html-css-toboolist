@@ -56,6 +56,7 @@ nav> div{
     font-weight: 300;
     box-sizing: content-box;
     padding: 10px;
+    margin: 5px;
 }
 
 #new-task{
@@ -89,6 +90,7 @@ h2::before{
     margin: 15px;
 }
 
+/* Before point content */
 .point.done::before{
     content: "\002713";
     color: #6fc6b2;
@@ -108,5 +110,67 @@ h2::before{
     border-radius: 50%;
     margin-right: 10px;
 }
+/* /Before point content */
 
+/* After point content */
+.point.edit::after{
+    content: "Editorial";
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #45abea;
+}
+
+.point.q1-goals::after{
+    content: "Q1 Goals";
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #9c72e4;
+}
+
+.point.recruiting::after{
+    content: "Recruiting";
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #64c0a9;
+}
+
+.point.mobile::after{
+    content: "Mobile";
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #f29e33;
+}
+
+.point.website::after{
+    content: "Website";
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #d863a1;
+}
+
+.point.sales::after{
+    content: "Sales";
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #b0c926;
+}
+/* /After point content */
 /* body style */
