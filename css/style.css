@@ -1,5 +1,36 @@
+/* Generic style */
 *{
     box-sizing: border-box;
     margin: auto;
     padding: 0;
+    font-family: 'Mulish', sans-serif;
 }
+
+
+/* Header style */
+
+header{
+    height: 100px;
+    background-color: white;
+    line-height: 100px;
+}
+
+header> img{
+    height: 80%;
+    vertical-align: middle;
+}
+
+header> span{
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+/* /Header style */
+
+/* Body style */
+
+body{
+    background-color: #f6f8f9;
+}
+
+/* body style */
